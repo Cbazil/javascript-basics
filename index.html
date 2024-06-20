@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo 2 JS Basics</title>
+  <script src="./main.js" defer></script>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div id="main">
+    <div id="card">
+      <h1>BlackJack Game</h1> <!-- Title/Header 1 -->
+      <p>Cards: {} </p> <!-- Paragraph; area in which we dynamically insert the random 2 cards (numbers 1-10), 3 variables being use or an array (loops) with 3 number; Math.random(0.1 - 1) * 10, might have to + 1 -->
+      <p>Sum: {}</p> <!-- This is the sum of all cards/number above,  num1 +  num2 + num3 or using array (Use method that gets sum of all number in array), could use <spa> element -->
+      <button id="start" type="button">Start game</button> <!-- Starts game, function that will use DOM to update card area (2 cards/numbers between 1-10) -->
+      <button id="add" type="button">Add card</button> <!-- Add a new card (Number), DOM onclick function (click event) that updates the innerText, update by rewriting Cards: val1 val2 -->
+    </div>
+  </div>
+</body>
+</html>
